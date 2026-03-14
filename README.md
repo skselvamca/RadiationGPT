@@ -1,4 +1,4 @@
-☢️ RadiationGPT
+# ☢️ RadiationGPT
 
 AI Assistant for **Nuclear Physics & Radiation Measurement**
 
