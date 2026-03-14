@@ -24,7 +24,7 @@ st.subheader("AI Assistant for Nuclear Physics & Radiation Measurement")
 
 @st.cache_resource
 def load_groq_client():
-    return Groq(api_key="GROQ_API_KEY")
+    return Groq(api_key="API_KEY")
 
 client = load_groq_client()
 
