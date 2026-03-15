@@ -24,7 +24,7 @@ st.subheader("AI Assistant for Nuclear Physics & Radiation Measurement")
 
 @st.cache_resource
 def load_groq_client():
-    return Groq(api_key="GROQ_API_KEY")
+    return Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 client = load_groq_client()
 
@@ -136,7 +136,7 @@ Explain clearly and scientifically.
 """
 
         completion = client.chat.completions.create(
-            model="llama3-8b-8192",
+            model="llama-3.1-8b-instant",
             messages=[
                 {"role":"system","content":system_prompt},
                 {"role":"user","content":prompt}
