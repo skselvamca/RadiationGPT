@@ -68,9 +68,3 @@ A = A_0 e^{-0.693t/T_{1/2}}
 
 ---
 
-## 🖥️ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/RadiationGPT.git
